@@ -1,13 +1,12 @@
-application:
-  rackup: config.ru
-
 web:
   context: /stompbox
+  rackup: /home/ubuntu/code/stompbox/config.ru
 
 environment:
 #  Sample configuration options
-#  AUTO_MIGRATE: true
-#  DATABASE_URL: postgres://stompbox:stompbox@localhost/stompbox
+ AUTO_MIGRATE: true
+ DATABASE_URL: postgres://stompbox:stompbox@localhost/stompbox
 #  DEPLOYMENTS: /opt/deployments
-#  API_KEY: 3821A95D456134214FAD6FA91A2BAFE574D47151
+ REQUIRE_AUTHENTICATION: true
+ API_KEY: 8909fe7032f03f2b728d478b0e600896130b933d
 

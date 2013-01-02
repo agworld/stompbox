@@ -26,9 +26,9 @@ gem 'dm-timestamps'
 gem 'dm-observer'
 
 gem 'torquebox'
+gem "thor"
 
 group :development do
-  gem 'thor'
   gem 'jeweler'
 end
 
