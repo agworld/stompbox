@@ -35,7 +35,7 @@ end
 group :test do
   gem 'rspec', :require => 'spec'
   gem 'rack-test'
-  gem 'sqlite3'
+  #gem 'sqlite3'
   gem 'dm-sqlite-adapter'
   gem 'torquespec'
   gem 'capybara'
