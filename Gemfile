@@ -4,9 +4,9 @@ source :rubygems
 
 gem 'bundler'
 gem 'rake'
-gem "sinatra", "1.1.2"
-gem "sinatra-reloader", "0.5.0"
-gem "rack-flash", "0.1.1"
+gem "sinatra"
+gem "sinatra-reloader"
+gem "rack-flash"
 
 # odd, but this is required by monkey-lib which is required by rack session
 # cookies, but doesn't get installed unless we're explicit about it
@@ -18,14 +18,14 @@ gem 'json_pure'
 gem 'state_machine'
 gem 'git'
 
-gem 'data_mapper', '~>1.1'
-gem 'dm-core', '~>1.1'
-gem 'dm-postgres-adapter', '~>1.1'
-gem 'dm-migrations', '~>1.1'
-gem 'dm-timestamps', '~>1.1'
-gem 'dm-observer', '~>1.1'
+gem 'data_mapper'
+gem 'dm-core'
+gem 'dm-postgres-adapter'
+gem 'dm-migrations'
+gem 'dm-timestamps'
+gem 'dm-observer'
 
-gem 'torquebox', '1.0.0'
+gem 'torquebox'
 
 group :development do
   gem 'thor'
